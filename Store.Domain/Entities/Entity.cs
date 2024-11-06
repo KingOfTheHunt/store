@@ -1,6 +1,8 @@
+using Flunt.Notifications;
+
 namespace Store.Domain.Entities;
 
-public abstract class Entity
+public abstract class Entity : Notifiable<Notification>
 {
     public Guid Id { get; private set; }
 

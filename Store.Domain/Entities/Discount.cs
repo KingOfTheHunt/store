@@ -11,14 +11,14 @@ public class Discount : Entity
         ExpireDate = expireDate;
     }
 
-    public bool IsValid()
+    public bool Valid()
     {
         return DateTime.Compare(DateTime.Now, ExpireDate) < 0;
     }
 
     public decimal Value()
     {
-        if (IsValid())
+        if (Valid())
             return Amount;
         else 
             return 0;
