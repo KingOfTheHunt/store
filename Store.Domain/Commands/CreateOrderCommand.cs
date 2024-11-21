@@ -28,7 +28,7 @@ public class CreateOrderCommand : Notifiable<Notification>, ICommand
     {
         AddNotifications(new Contract<Notification>()
             .Requires()
-            .AreEquals(Customer.Length, 32, "Customer", "Cliente inválido.")
+            .IsGreaterThan(Customer.Length, 8, "Customer", "Cliente inválido.")
             .AreEquals(ZipCode.Length, 8, "ZipCode", "CEP Inválido.")
             .IsGreaterThan(Items.Count, 0, "Items", "O pedido precisa ter ao menos um produto."));
     }
