@@ -6,7 +6,7 @@ Projeto de geração de pedido de loja com o objetivo de praticar conceitos de D
 
 ## Aprendizados
 
-Os aprendizados com este projetos foram: **Domínios Ricos**, **Commands**, **Fail Fast Validation**, **Handler**, **Mocks** e **Red, Green e Refactor**.
+Os aprendizados com este projeto foram: **Domínios Ricos**, **Commands**, **Fail Fast Validation**, **Handler**, **Mocks** e **Red, Green e Refactor**.
 
 - **Domínios ricos**: além de representar as tabelas que existem no banco de dados, é responsável pelas regras de negócio.
 
@@ -18,7 +18,7 @@ Os aprendizados com este projetos foram: **Domínios Ricos**, **Commands**, **Fa
 
 - **Mocks**: São implementações falsas das dependências que as classes necessitam para funcionar. Essas falsas implementações possibilitam a execução de testes de unidade.
 
-- **Red, Green e Refactor**: É um conceito do TDD (Test Driver Design) que consite em fazer os testes falharem, depois passarem e por último refatorá-los.
+- **Red, Green e Refactor**: É um conceito do TDD (Test Driver Design) que consiste em fazer os testes falharem, depois passarem e por último refatorá-los.
 
 
 ## Rodando os testes
